@@ -1,13 +1,29 @@
-body {
-    background-color: aqua;
+@font-face {
+    font-family: American;
+    src: url(american.ttf);
 }
 
-div {
-    width: 200px; 
-    height: 200px;
-    background-color: bisque;
+*{
+    box-sizing: border-box;
+    margin: 0;    
 }
 
-.second {
-    background-color: goldenrod;   
+input {
+    margin-top: 10px;
+}
+
+input:focus {    
+    outline: seagreen solid 1px;    
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border: 1px solid pink;
+}
+
+input[type="checkbox"]:checked {    
+    outline: palevioletred solid 3px;
 }
