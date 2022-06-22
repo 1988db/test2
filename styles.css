@@ -1,29 +1,19 @@
-@font-face {
-    font-family: American;
-    src: url(american.ttf);
-}
-
 *{
     box-sizing: border-box;
     margin: 0;    
 }
 
-input {
-    margin-top: 10px;
+body {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-input:focus {    
-    outline: seagreen solid 1px;    
-}
-
-input[type="checkbox"] {
-    margin-left: 5px;
-    appearance: none;
-    width: 10px;
-    height: 10px;
-    border: 1px solid pink;
-}
-
-input[type="checkbox"]:checked {    
-    outline: palevioletred solid 3px;
+.container {
+    margin: 20px auto;
+    width: 1280px;
+    height: 2000px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px rgb(235, 233, 233);
 }
